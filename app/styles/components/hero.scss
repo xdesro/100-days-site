@@ -1,0 +1,26 @@
+.hero {
+	background-image: url('/images/header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	h1 {
+		color: $light;
+		margin-top: 50%;
+		font-size: 4vw;
+	}
+	.vanity {
+		margin-top:20%;
+		margin-bottom: 20%;
+		p {
+			color: $light;
+			// font-size: 3vw;
+		}
+		.text-dark {
+			color: $dark;
+			position:absolute;
+			bottom:0;
+		}
+	}
+	em {
+		color: $light;
+	}
+}

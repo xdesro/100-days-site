@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i,900i');
+
+$helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$playfair: "Playfair Display", serif;
+
+body {
+	font-family: $helvetica;
+	font-weight: 300;
+}
+h1 {
+	font-family: $helvetica;
+	font-weight: bold;
+	font-size:40px;
+}
+h2 {
+	text-align:center;
+	font-family: $playfair;
+	font-weight:900;
+	font-size:70px;
+}
+h3 {}
+h4 {}
+h5 {}
+
+p {
+
+}
+
+em {
+	font-style: italic
+}
+.align-right {
+	text-align:right;
+}
+.vanity {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 48px;
+}
+
+.light {
+	* {
+		color: $dark;
+	}
+	.accent {
+		color: $light-accent
+	}
+}
+
+.dark {
+	background-color: $dark;
+	* {
+		color: $light
+	}
+	.accent {
+		color: $dark-accent;
+	}
+}
